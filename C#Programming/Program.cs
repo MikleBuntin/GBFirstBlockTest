@@ -26,7 +26,7 @@ Console.WriteLine("Old array: ");
 Console.Write($"[");
 for(int i = 0; i < oldArray.GetLength(0); i++)
     {
-        Console.Write($"{oldArray[i]}, ");
+        Console.Write($"{oldArray[i]} ");
     }
 Console.Write($"]");
 Console.WriteLine();
